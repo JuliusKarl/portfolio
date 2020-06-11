@@ -8,8 +8,14 @@ a {
     color: white;
 }
 
+h1 {
+    margin-bottom: 0px;
+}
+
 hr {
-    border-color: #2f2f2f;
+    border-color: rgba(20, 20, 20, 0.8);
+    border-style: solid;
+    margin-bottom: 20px;
 }
 
 small {
@@ -24,7 +30,7 @@ nav {
     position: fixed;
     z-index: 1;
     background: rgba(26, 26, 26, 0.8);
-    transition: top 0.3s;
+    transition: top 0.5s;
 }
 
 #copyright {
@@ -35,13 +41,17 @@ nav {
     height: 100vh;
 }
 
+#development img {
+    border-radius: 2px;
+}
+
+#landing h3 div {
+    display: inline-block;
+}
+
 .profile-pic {
     width: 150px;
     height: 150px;
     margin: 20px 0px;
     border-radius: 100%;
-}
-
-#landing h3 div {
-    display: inline-block;
 }
