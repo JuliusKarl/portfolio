@@ -1,6 +1,8 @@
 body {
     font-family: 'Didact Gothic', sans-serif;
-    background: #1a1a1a
+    background: #1a1a1a;
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 a {
