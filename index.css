@@ -39,6 +39,10 @@ nav {
     transition: top 0.5s;
 }
 
+.fa {
+    height: auto;
+}
+
 #copyright {
     margin-bottom: 0px;
 }
