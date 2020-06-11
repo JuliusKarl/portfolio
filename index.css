@@ -1,0 +1,47 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background: #1a1a1a
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    border-color: #2f2f2f;
+}
+
+small {
+    color: grey;
+}
+
+section, section .row {
+    padding-top: 0.5vh;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    background: rgba(26, 26, 26, 0.8);
+    transition: top 0.3s;
+}
+
+#copyright {
+    margin-bottom: 0px;
+}
+
+#landing {
+    height: 100vh;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0px;
+    border-radius: 100%;
+}
+
+#landing h3 div {
+    display: inline-block;
+}
