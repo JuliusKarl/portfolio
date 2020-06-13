@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Edited-Questrial";
+    src: url("./Questrial-Regular.ttf");
+}
+
 body {
     font-family: 'Questrial', sans-serif;
     background: #1a1a1a;
