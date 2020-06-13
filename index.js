@@ -8,13 +8,38 @@ $(document).ready(function() {
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
+
         if (prevScrollpos > currentScrollPos || prevScrollpos <= 0) {
             document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-100px";
+            document.getElementById("navbar").style.background = "rgba(26, 26, 26, 0.9)";
+            if (currentScrollPos <= 250) document.getElementById("navbar").style.background = "rgba(26, 26, 26, 0.0)";
         }
+        else {document.getElementById("navbar").style.top = "-100px";}
         prevScrollpos = currentScrollPos;
     }
+
+    // About functions
+    function blink() {
+        setInterval(function() {
+            { document.getElementById("blink").style.visibility == "hidden" ?
+            document.getElementById("blink").style.visibility = "visible" : 
+            document.getElementById("blink").style.visibility = "hidden" }}, 500)}
+    blink();
+
+    let i = 0;
+    const txt = 'I build websites.';
+    const speed = 80;
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("about").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);}}
+
+    function typeWriterDelay() {
+        setTimeout(typeWriter, 1800);}
+
+    typeWriterDelay();
 
     // Vanta
     VANTA.NET({
@@ -25,9 +50,9 @@ $(document).ready(function() {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        color: 0x2a2a2a,
+        color: 0x1e403c,
         backgroundColor: 0x1a1a1a,
-        points: 8.00,
+        points: 14.00,
         maxDistance: 28.00,
         spacing: 18.00,
         showDots: false

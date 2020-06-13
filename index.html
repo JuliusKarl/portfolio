@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Didact Gothic / Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <!-- Questrail / Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <!-- Local css -->
     <link href="./index.css" rel="stylesheet">
     <!-- AOS -->
@@ -18,7 +20,7 @@
     <!-- Favicon -->
     <link rel="icon" href="./img/icon.png">
 
-    <title>Julius Karl | Web Developer</title>
+    <title>Julius Karl</title>
 </head>
 <body>
     <div class="main">
@@ -44,9 +46,8 @@
         <div class="row white-text">
             <div class="valign-wrapper">
                 <h3 class="left">
-                    <div data-aos="fade-down" data-aos-delay="300">I</div> 
-                    <div data-aos="fade-up" data-aos-delay="600">build</div> 
-                    <div data-aos="fade-down" data-aos-delay="900">websites<div data-aos="zoom-out" data-aos-delay="1300">.</div></div>
+                    <div id="about"></div> 
+                    <div id="blink" style="visibility:hidden">|</div>
                 </h3>
             </div>
         </div>
@@ -62,7 +63,7 @@
     </ul>
 
     <!-- About Section -->
-    <section class="white center scrollspy" id="about">
+    <section class="white center scrollspy z-depth-2" id="about">
         <div class="container section">
             <img src="./img/me.png" alt="me" class="profile-pic">
             <p class="center">A Full Stack Developer specializing in ReactJS and Angular 8. <br></br>
@@ -189,7 +190,7 @@
     </section>
 
     <!-- Design Section -->
-    <section class="white scrollspy" id="design">
+    <section class="white scrollspy z-depth-2" id="design">
         <div class="container section">
             <h1 class="title center">design</h1>
             <div class="row grey-text center">
@@ -276,7 +277,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="page-footer grey darken-3">
+    <footer class="page-footer grey darken-4">
         <div class="container section">
             <div class="row">
                 <div class="col s12 l4">
