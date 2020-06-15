@@ -26,18 +26,21 @@ $(document).ready(function() {
             document.getElementById("blink").style.visibility = "hidden" }}, 500)}
     blink();
 
-    let i = 0;
-    const txt = 'I build websites.';
-    const speed = 80;
-
-    function typeWriter() {
-        if (i < txt.length) {
-            document.getElementById("title").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);}}
+    // Typewriter
+    function typeWriterContainer() {
+        var i = 0;
+        const txt = 'I build websites.';
+        const speed = 80;
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("title").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);}}
+        typeWriter();
+    }   
 
     function typeWriterDelay() {
-        setTimeout(typeWriter, 1800);}
+        setTimeout(typeWriterContainer, 1800);}
 
     typeWriterDelay();
 
