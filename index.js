@@ -43,21 +43,22 @@ $(document).ready(function() {
         setTimeout(typeWriterContainer, 1800);}
 
     typeWriterDelay();
-
-    // Vanta
-    VANTA.NET({
-        el: "#landing",
-        mouseControls: true,
-        touchControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0x1e403c,
-        backgroundColor: 0x1a1a1a,
-        points: 14.00,
-        maxDistance: 28.00,
-        spacing: 18.00,
-        showDots: false
-      })
+    if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+         // Vanta
+        VANTA.NET({
+            el: "#landing",
+            mouseControls: true,
+            touchControls: false,
+            minHeight: 150.00,
+            minWidth: 150.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x1e403c,
+            backgroundColor: 0x242424,
+            points: 20.00,
+            maxDistance: 30.00,
+            spacing: 20.00,
+            showDots: false
+        })
+       }
 })
