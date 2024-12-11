@@ -47,7 +47,7 @@ $(document).ready(function () {
   // Typewriter
   function typeWriterContainer() {
     var i = 0;
-    const txt = "I build software.";
+    const txt = "I build apps.";
     const speed = 80;
     function typeWriter() {
       if (i < txt.length) {

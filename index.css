@@ -1,86 +1,91 @@
 @font-face {
-    font-family: "Edited-Questrial";
-    src: url("./Questrial-Regular.ttf");
+  font-family: "Edited-Questrial";
+  src: url("./Questrial-Regular.ttf");
 }
 
 body {
-    font-family: 'Questrial', sans-serif;
-    background: #242424;
-    max-width: 100vw;
+  font-family: "Questrial", sans-serif;
+  background: #242424;
+  max-width: 100vw;
 }
 
 .main {
-    width: 100%!important;
-    overflow-x: hidden!important;
+  width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 h1 {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 400px) {
-    h1 {
-        font-size: 3rem;
-    }
-    h4 {
-        font-size: 2rem;
-    }
+  h1 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
 }
 
 hr {
-    border-color: rgba(23, 51, 48, 0.8);
-    border-style: solid;
-    margin-bottom: 20px;
+  border-color: rgba(23, 51, 48, 0.8);
+  border-style: solid;
+  margin-bottom: 20px;
 }
 
 small {
-    color: grey;
+  color: grey;
 }
 
-section, section .row {
-    padding-top: 0.5vh;
+section,
+section .row {
+  padding-top: 0.5vh;
+}
+.dev-content {
+  display: flex;
+  align-items: center;
 }
 
 nav {
-    position: fixed;
-    z-index: 2;
-    background: rgba(26, 26, 26, 0.0);
-    transition: top 0.5s, background 1s;
+  position: fixed;
+  z-index: 2;
+  background: rgba(26, 26, 26, 0);
+  transition: top 0.5s, background 1s;
 }
 
 .fa {
-    height: auto;
+  height: auto;
 }
 
 #period {
-    visibility: hidden;
-    transition: visibility;
+  visibility: hidden;
+  transition: visibility;
 }
 
 #copyright {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #landing {
-    height: 100vh;
+  height: 100vh;
 }
 
 #development img {
-    border-radius: 2px;
+  border-radius: 2px;
 }
 
 #landing h3 div {
-    display: inline-block;
+  display: inline-block;
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    margin: 20px 0px;
-    border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin: 20px 0px;
+  border-radius: 100%;
 }
