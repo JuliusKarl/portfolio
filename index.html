@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!-- Didact Gothic / Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
     <!-- Questrial / Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
     <!-- Local css -->
-    <link href="./index.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet" />
     <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Social Media Icons -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <!-- Favicon -->
-    <link rel="icon" href="./img/icon.png">
+    <link rel="icon" href="./img/icon.png" />
 
     <!-- Scripts -->
     <!-- AOS -->
@@ -35,360 +52,623 @@
     <script src="./index.js"></script>
 
     <title>Julius Karl</title>
-</head>
+  </head>
 
-<body id="body">
+  <body id="body">
     <div class="main">
-        <!-- Header Section -->
-        <nav class="nav-wrapper z-depth-0" id="navbar">
-            <div class="container">
-                <div class="brand-logo"><a href="#">juliuskarl</a></div>
-                <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#development">DEVELOPMENT</a></li>
-                    <li><a href="#design">DESIGN</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="https://www.linkedin.com/in/juliuskarl/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="https://github.com/JuliusKarl" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                    <li><a href="https://medium.com/@julius.karl.macrohon" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </nav>
-        <header id="landing" class="valign-wrapper">
-            <div class="row white-text">
-                <div class="valign-wrapper">
-                    <h3 class="left">
-                        <div id="title"></div>
-                        <div id="blink" style="visibility:hidden">|</div>
-                    </h3>
-                </div>
-            </div>
-        </header>
-        <ul class="sidenav" id="mobile-links">
+      <!-- Header Section -->
+      <nav class="nav-wrapper z-depth-0" id="navbar">
+        <div class="container">
+          <div class="brand-logo"><a href="#">juliuskarl</a></div>
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#development">DEVELOPMENT</a></li>
             <li><a href="#design">DESIGN</a></li>
             <li><a href="#contact">CONTACT</a></li>
-            <li><a href="https://www.linkedin.com/in/juliuskarl/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="https://github.com/JuliusKarl" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-            <li><a href="https://medium.com/@julius.karl.macrohon" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-        </ul>
+            <li>
+              <a href="https://www.linkedin.com/in/juliuskarl/" target="_blank"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/JuliusKarl" target="_blank"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://medium.com/@julius.karl.macrohon" target="_blank"
+                ><i class="fa fa-medium" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <header id="landing" class="valign-wrapper">
+        <div class="row white-text">
+          <div class="valign-wrapper">
+            <h3 class="left">
+              <div id="title"></div>
+              <div id="blink" style="visibility: hidden">|</div>
+            </h3>
+          </div>
+        </div>
+      </header>
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#development">DEVELOPMENT</a></li>
+        <li><a href="#design">DESIGN</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/juliuskarl/" target="_blank"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/JuliusKarl" target="_blank"
+            ><i class="fa fa-github" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://medium.com/@julius.karl.macrohon" target="_blank"
+            ><i class="fa fa-medium" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
 
-        <!-- About Section -->
-        <section class="white center scrollspy z-depth-2" id="about">
-            <div class="container section">
-                <img src="./img/me.png" alt="me" class="profile-pic">
-                <p class="center">
-                    As a developer specializing in website and mobile applications I bring value by future proofing powerful in-demand skills for the future of the tech industry. After graduating from the University of Auckland with a Bachelor’s Degree in Computer Science I have built Javascript web applications and am now exploring Mobile and Full-Stack Software Development.<br></br>
-                    I am passionate about creating innovative solutions and expanding the limitations of our current technology.
-                </p>
-                <br></br>
-                <div class="row center">
-                    <i>- Julius Karl Macrohon</i>
-                </div>
-            </div>
-        </section>
+      <!-- About Section -->
+      <section class="white center scrollspy z-depth-2" id="about">
+        <div class="container section">
+          <img src="./img/me.png" alt="me" class="profile-pic" />
+          <p class="center">
+            I am an experienced mobile and web developer driven by captivating
+            design and creating fluid user experiences. Specialising in bridging
+            the gap between robust solutions and intuitive design to provide an
+            efficient, effective and engaging user experience, my goal is to
+            provide exceptional solutions that ultimately enhance the quality of
+            people’s lives.
+          </p>
+          <br />
+          <div class="row center">
+            <i>- Julius Karl Macrohon</i>
+          </div>
+        </div>
+      </section>
 
-        <!-- Development Section -->
-        <section class="container section scrollspy" id="development">
-            <h1 class="title white-text center">development</h1>
-            <div class="row grey-text center">
-                <p>Portfolio of websites and applications I have developed</p>
+      <!-- Development Section -->
+      <section class="container section scrollspy" id="development">
+        <h1 class="title white-text center">development</h1>
+        <div class="row grey-text center">
+          <p>Portfolio of websites and applications I have developed</p>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-left"
+          data-aos-duration="800"
+        >
+          <a href="https://fitness-timer.netlify.app/" target="_blank">
+            <div class="col s12 l5">
+              <img
+                src="./img/thumbs/fitness-timer.JPG"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-left" data-aos-duration="800">
-                <a href="https://fitness-timer.netlify.app/" target="_blank">
-                    <div class="col s12 l5">
-                        <img src="./img/thumbs/fitness-timer.JPG" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1">
-                        <h4>Fitness Trainer</h4>
-                        <p>A fitness timer for HIIT and reflex training built with Reactjs. This app provides interval timing, lap timing and the beep test.</p>
-                        <small>HTML . CSS . ES6 . Nodejs . Reactjs</small>
-                    </div>
-                </a>
+            <div class="col s12 l6 offset-l1">
+              <h4>Fitness Trainer</h4>
+              <p>
+                A fitness timer for HIIT and reflex training built with Reactjs.
+                This app provides interval timing, lap timing and the beep test.
+              </p>
+              <small>HTML . CSS . ES6 . Nodejs . Reactjs</small>
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-right" data-aos-duration="800">
-                <a href="https://hirahero.netlify.app/" target="_blank">
-                    <div class="col s12 l5 push-l7">
-                        <img src="./img/thumbs/hira-hero.JPG" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1 pull-l5">
-                        <h4>Hirahero</h4>
-                        <p>A flash card study app for learning Japanese hiragrana built using Reactjs</p>
-                        <small>HTML . CSS . ES6 . Nodejs . Reactjs</small>
-                    </div>
-                </a>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          <a href="https://hirahero.netlify.app/" target="_blank">
+            <div class="col s12 l5 push-l7">
+              <img
+                src="./img/thumbs/hira-hero.JPG"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-left" data-aos-duration="800">
-                <a href="https://tasx.netlify.app/" target="_blank">
-                    <div class="col s12 l5">
-                        <img src="./img/thumbs/tasx.JPG" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1">
-                        <h4>Tasx</h4>
-                        <p>A task planner using Redux and Redux-Persist to store data. Task data persists until intentionally removed by user.</p>
-                        <small>HTML . CSS . ES6 . Nodejs . Reactjs . Redux</small>
-                    </div>
-                </a>
+            <div class="col s12 l6 offset-l1 pull-l5">
+              <h4>Hirahero</h4>
+              <p>
+                A flash card study app for learning Japanese hiragrana built
+                using Reactjs
+              </p>
+              <small>HTML . CSS . ES6 . Nodejs . Reactjs</small>
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-right" data-aos-duration="800">
-                <a href="http://jklogin.herokuapp.com/" target="_blank">
-                    <div class="col s12 l5 push-l7">
-                        <img src="./img/thumbs/login-form.JPG" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1 pull-l5">
-                        <h4>Login Form</h4>
-                        <p>A full-stack login using ReactJS and Express.js. Information is secured using JWT and Passportjs.</p>
-                        <small>HTML . CSS . ES6 . Nodejs . Reactjs . Expressjs . Mongodb . Heroku</small>
-                    </div>
-                </a>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-left"
+          data-aos-duration="800"
+        >
+          <a href="https://tasx.netlify.app/" target="_blank">
+            <div class="col s12 l5">
+              <img
+                src="./img/thumbs/tasx.JPG"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-left" data-aos-duration="800">
-                <a href="https://www.eugra.app/" target="_blank">
-                    <div class="col s12 l5">
-                        <img src="./img/thumbs/eugra-v1.JPG" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1">
-                        <h4>Eugra</h4>
-                        <p>Landing page for 'Eugra' a social media app for vocal conversation. <i>(deferred)</i></p>
-                        <small>HTML . CSS . ES6</small>
-                    </div>
-                </a>
+            <div class="col s12 l6 offset-l1">
+              <h4>Tasx</h4>
+              <p>
+                A task planner using Redux and Redux-Persist to store data. Task
+                data persists until intentionally removed by user.
+              </p>
+              <small>HTML . CSS . ES6 . Nodejs . Reactjs . Redux</small>
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-right" data-aos-duration="800">
-                <a href="https://eugra.netlify.app/" target="_blank">
-                    <div class="col s12 l5 push-l7">
-                        <img src="./img/thumbs/eugra-v2.JPG" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1 pull-l5">
-                        <h4>Eugra App</h4>
-                        <p>Web app for 'Eugra' built with Reactjs.</p>
-                        <small>HTML . CSS . ES6 . Nodejs . Reactjs . RESTful api</small>
-                    </div>
-                </a>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          <a href="http://jklogin.herokuapp.com/" target="_blank">
+            <div class="col s12 l5 push-l7">
+              <img
+                src="./img/thumbs/login-form.JPG"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-left" data-aos-duration="800">
-                <a href="https://juliuskarl.netlify.app/" target="_blank">
-                    <div class="col s12 l5">
-                        <img src="./img/thumbs/react-portfolio.JPG" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1">
-                        <h4>Jkmacro</h4>
-                        <p>My depreciated portfolio built using Reactjs. Heavy with design flaws and performance issues.</p>
-                        <small>HTML . CSS . ES6 . Nodejs . Reactjs</small>
-                    </div>
-                </a>
+            <div class="col s12 l6 offset-l1 pull-l5">
+              <h4>Login Form</h4>
+              <p>
+                A full-stack login using ReactJS and Express.js. Information is
+                secured using JWT and Passportjs.
+              </p>
+              <small
+                >HTML . CSS . ES6 . Nodejs . Reactjs . Expressjs . Mongodb .
+                Heroku</small
+              >
             </div>
-            <hr/>
-            <div class="row white-text" data-aos="fade-right" data-aos-duration="800">
-                <a href="https://medium.com/@julius.karl.macrohon/journey-navigation-demo-f551b0b42829" target="_blank">
-                    <div class="col s12 l5 push-l7">
-                        <img src="./img/thumbs/journey.JPG" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1 pull-l5">
-                        <h4>Journey</h4>
-                        <p>A Bible platform for prayer management and scripture study. A full stack application with user login and database storage. <i>(offline)</i></p>
-                        <small>HTML . CSS . ES6 . Nodejs . Reactjs . Expressjs . Mongodb . RESTful api . AWS</small>
-                    </div>
-                </a>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-left"
+          data-aos-duration="800"
+        >
+          <a href="https://www.eugra.app/" target="_blank">
+            <div class="col s12 l5">
+              <img
+                src="./img/thumbs/eugra-v1.JPG"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-left" data-aos-duration="800">
-                <a href="https://syno.juliuskarl.dev/" target="_blank">
-                    <div class="col s12 l5">
-                        <img src="./img/thumbs/syno.jpg" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1">
-                        <h4>Syno</h4>
-                        <p>Mobile application for speech transcription and vocabulary data information.</p>
-                        <small>Flutter . Dart . RESTful api</small>
-                    </div>
-                </a>
+            <div class="col s12 l6 offset-l1">
+              <h4>Eugra</h4>
+              <p>
+                Landing page for 'Eugra' a social media app for vocal
+                conversation. <i>(deferred)</i>
+              </p>
+              <small>HTML . CSS . ES6</small>
             </div>
-            <hr/>
-            <div class="row white-text" data-aos="fade-right" data-aos-duration="800">
-                <a href="https://play.google.com/store/apps/details?id=com.syno.explore" target="_blank">
-                    <div class="col s12 l5 push-l7">
-                        <img src="./img/thumbs/reflexStore2.png" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1 pull-l5">
-                        <h4>Reflex</h4>
-                        <p>Mobile application to support reflex and reaction training as well as overall health and fitness. </p>
-                        <small>Flutter . Dart</small>
-                    </div>
-                </a>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          <a href="https://eugra.netlify.app/" target="_blank">
+            <div class="col s12 l5 push-l7">
+              <img
+                src="./img/thumbs/eugra-v2.JPG"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
             </div>
-            <hr />
-            <div class="row white-text" data-aos="fade-right" data-aos-duration="800">
-                <a href="https://athen.azurewebsites.net/" target="_blank">
-                    <div class="col s12 l5">
-                        <img src="./img/thumbs/Athenaeum.jpg" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1">
-                        <h4>Athenaeum</h4>
-                        <p>Digital library for local and remote book discovery. First migration away from Javascript and exploration of the C# .NET Core framework. <i>(deferred)</i></p>
-                        <small>HTML . CSS . ES6 . C# . NET Core . Entity Framework Core . SQL Server . Azure . CICD . AWS</small>
-                    </div>
-                </a>
+            <div class="col s12 l6 offset-l1 pull-l5">
+              <h4>Eugra App</h4>
+              <p>Web app for 'Eugra' built with Reactjs.</p>
+              <small>HTML . CSS . ES6 . Nodejs . Reactjs . RESTful api</small>
             </div>
-            <hr/>
-            <div class="row white-text" data-aos="fade-right" data-aos-duration="800">
-                <a href="https://juliuskarl.github.io/threejs/" target="_blank">
-                    <div class="col s12 l5 push-l7">
-                        <img src="./img/thumbs/threejs.gif" alt="" class="responsive-img z-depth-3">
-                    </div>
-                    <div class="col s12 l6 offset-l1 pull-l5">
-                        <h4>Green Box</h4>
-                        <p>It's a green box. </p>
-                        <small>HTML . CSS . ES6 . Threejs</small>
-                    </div>
-                </a>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-left"
+          data-aos-duration="800"
+        >
+          <a href="https://juliuskarl.netlify.app/" target="_blank">
+            <div class="col s12 l5">
+              <img
+                src="./img/thumbs/react-portfolio.JPG"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
             </div>
-        </section>
+            <div class="col s12 l6 offset-l1">
+              <h4>Jkmacro</h4>
+              <p>
+                My depreciated portfolio built using Reactjs. Heavy with design
+                flaws and performance issues.
+              </p>
+              <small>HTML . CSS . ES6 . Nodejs . Reactjs</small>
+            </div>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          <a
+            href="https://medium.com/@julius.karl.macrohon/journey-navigation-demo-f551b0b42829"
+            target="_blank"
+          >
+            <div class="col s12 l5 push-l7">
+              <img
+                src="./img/thumbs/journey.JPG"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
+            </div>
+            <div class="col s12 l6 offset-l1 pull-l5">
+              <h4>Journey</h4>
+              <p>
+                A Bible platform for prayer management and scripture study. A
+                full stack application with user login and database storage.
+                <i>(offline)</i>
+              </p>
+              <small
+                >HTML . CSS . ES6 . Nodejs . Reactjs . Expressjs . Mongodb .
+                RESTful api . AWS</small
+              >
+            </div>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-left"
+          data-aos-duration="800"
+        >
+          <a href="https://syno.juliuskarl.dev/" target="_blank">
+            <div class="col s12 l5">
+              <img
+                src="./img/thumbs/syno.jpg"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
+            </div>
+            <div class="col s12 l6 offset-l1">
+              <h4>Syno</h4>
+              <p>
+                Mobile application for speech transcription and vocabulary data
+                information.
+              </p>
+              <small>Flutter . Dart . RESTful api</small>
+            </div>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          <a
+            href="https://play.google.com/store/apps/details?id=com.syno.explore"
+            target="_blank"
+          >
+            <div class="col s12 l5 push-l7">
+              <img
+                src="./img/thumbs/reflexStore2.png"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
+            </div>
+            <div class="col s12 l6 offset-l1 pull-l5">
+              <h4>Reflex</h4>
+              <p>
+                Mobile application to support reflex and reaction training as
+                well as overall health and fitness.
+              </p>
+              <small>Flutter . Dart</small>
+            </div>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          <a href="https://athen.azurewebsites.net/" target="_blank">
+            <div class="col s12 l5">
+              <img
+                src="./img/thumbs/Athenaeum.jpg"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
+            </div>
+            <div class="col s12 l6 offset-l1">
+              <h4>Athenaeum</h4>
+              <p>
+                Digital library for local and remote book discovery. First
+                migration away from Javascript and exploration of the C# .NET
+                Core framework. <i>(deferred)</i>
+              </p>
+              <small
+                >HTML . CSS . ES6 . C# . NET Core . Entity Framework Core . SQL
+                Server . Azure . CICD . AWS</small
+              >
+            </div>
+          </a>
+        </div>
+        <hr />
+        <div
+          class="row white-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          <a href="https://juliuskarl.github.io/threejs/" target="_blank">
+            <div class="col s12 l5 push-l7">
+              <img
+                src="./img/thumbs/threejs.gif"
+                alt=""
+                class="responsive-img z-depth-3"
+              />
+            </div>
+            <div class="col s12 l6 offset-l1 pull-l5">
+              <h4>Green Box</h4>
+              <p>It's a green box.</p>
+              <small>HTML . CSS . ES6 . Threejs</small>
+            </div>
+          </a>
+        </div>
+      </section>
 
-        <!-- Design Section -->
-        <section class="white scrollspy z-depth-2" id="design">
-            <div class="container section">
-                <h1 class="title center">design</h1>
-                <div class="row grey-text center">
-                    <p>Portfolio of UX research, UI case study and product development documentation</p>
-                </div>
-                <div class="row" data-aos="fade-up" data-aos-duration="800">
-                    <div class="col s12 l3">
-                        <div class="card z-depth-2">
-                            <a href="https://medium.com/@julius.karl.macrohon/syno-a-flutter-journey-23fa820fdf77" class="black-text" target="_blank">
-                                <div class="card-img">
-                                    <img src="./img/thumbs//syno.jpg" class="responsive-img">
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title">Syno<br /><small>App Development</small></span>
-                                    <p>In recent years Flutter has slowly been growing in popularity seeing itself in league with the likes of React Native and …
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col s12 l3">
-                        <div class="card z-depth-2">
-                            <a href="https://medium.com/@julius.karl.macrohon/athena-a-ux-case-study-ba9ea39fc6b0" class="black-text" target="_blank">
-                                <div class="card-img">
-                                    <img src="./img/thumbs/athena.JPG" class="responsive-img">
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title">Athena<br /><small>UX Research</small></span>
-                                    <p>When I began my internship with The University of Auckland I was excited to finally begin my career as a …
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col s12 l3">
-                        <div class="card z-depth-2">
-                            <a href="https://medium.com/@julius.karl.macrohon/journey-navigation-demo-f551b0b42829" class="black-text" target="_blank">
-                                <div class="card-img">
-                                    <img src="./img/thumbs/journey.JPG" class="responsive-img">
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title">Journey<br /><small>User Flow</small></span>
-                                    <p>Since this application requires signing up (with confidential details) I thought it would be wise to provide a…
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col s12 l3">
-                        <div class="card z-depth-2">
-                            <a href="https://medium.com/@julius.karl.macrohon/hirahero-hiragana-flash-cards-ef340366ef0a" class="black-text" target="_blank">
-                                <div class="card-img">
-                                    <img src="./img/thumbs/hira-hero.JPG" class="responsive-img">
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title">Hirahero<br /><small>Product Design</small></span>
-                                    <p>During the 2nd year of my computer science degree and being new to web development I was disappointed by…
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+      <!-- Design Section -->
+      <section class="white scrollspy z-depth-2" id="design">
+        <div class="container section">
+          <h1 class="title center">design</h1>
+          <div class="row grey-text center">
+            <p>
+              Portfolio of UX research, UI case study and product development
+              documentation
+            </p>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-duration="800">
+            <div class="col s12 l3">
+              <div class="card z-depth-2">
+                <a
+                  href="https://medium.com/@julius.karl.macrohon/syno-a-flutter-journey-23fa820fdf77"
+                  class="black-text"
+                  target="_blank"
+                >
+                  <div class="card-img">
+                    <img src="./img/thumbs//syno.jpg" class="responsive-img" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title"
+                      >Syno<br /><small>App Development</small></span
+                    >
+                    <p>
+                      In recent years Flutter has slowly been growing in
+                      popularity seeing itself in league with the likes of React
+                      Native and …
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="container section scrollspy" id="contact">
-            <h1 class="title white-text center">contact</h1>
-            <div class="row">
-                <div class="col s12 l5 white-text">
-                    <h4>Have an enquiry?</h4>
-                    <p>Fill out the contact form or alternatively send an email directly to <a href="mailto:julius.karl.macrohon@gmail.com"><i>julius.karl.macrohon@gmail.com</i></a> and i'll get in touch. </p>
-                </div>
-                <form action="https://formspree.io/mrggwpbl" method="POST" class="white-text col s12 l5 offset-l2">
-                    <div class="input-field">
-                        <i class="material-icons prefix">perm_identity</i>
-                        <input type="text" name="name" id="name" class="white-text">
-                        <label for="name">Name</label>
-                    </div>
-
-                    <div class="input-field">
-                        <i class="material-icons prefix">email</i>
-                        <input type="email" name="email" id="email" class="white-text">
-                        <label for="email">Email</label>
-                    </div>
-
-                    <div class="input-field">
-                        <i class="material-icons prefix">message</i>
-                        <textarea id="message" name="message" class="white-text materialize-textarea"></textarea>
-                        <label for="message">Message</label>
-                    </div>
-                    <div class="input-field">
-                        <button class="btn white black-text waves-effect waves-dark">Submit</button>
-                    </div>
-                </form>
+            <div class="col s12 l3">
+              <div class="card z-depth-2">
+                <a
+                  href="https://medium.com/@julius.karl.macrohon/athena-a-ux-case-study-ba9ea39fc6b0"
+                  class="black-text"
+                  target="_blank"
+                >
+                  <div class="card-img">
+                    <img src="./img/thumbs/athena.JPG" class="responsive-img" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title"
+                      >Athena<br /><small>UX Research</small></span
+                    >
+                    <p>
+                      When I began my internship with The University of Auckland
+                      I was excited to finally begin my career as a …
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="page-footer grey darken-4">
-            <div class="container section">
-                <div class="row">
-                    <div class="col s12 l4">
-                        <h6>Explore</h6>
-                        <ul>
-                            <li><a href="#about"><small>ABOUT</small></a></li>
-                            <li><a href="#development"><small>DEVELOPMENT</small></a></li>
-                            <li><a href="#design"><small>DESIGN</small></a></li>
-                            <li><a href="#contact"><small>CONTACT</small></a></li>
-                        </ul>
-                    </div>
-                    <div class="col s12 l4">
-                        <h6>Social</h6>
-                        <ul>
-                            <li><a href="https://www.linkedin.com/in/juliuskarl/" target="_blank"><small>LINKEDIN</small></a></li>
-                            <li><a href="https://github.com/JuliusKarl" target="_blank"><small>GITHUB</small></a></li>
-                            <li><a href="https://medium.com/@julius.karl.macrohon" target="_blank"><small>MEDIUM</small></a></li>
-                        </ul>
-                    </div>
-                    <div class="col s12 l4 center">
-                        <img src="./img/logo_nobackground.png" alt="" class="responsive-img">
-                        <small class="white-text"><i>Software developer with a focus on website and mobile applications.</i></small>
-                    </div>
-                </div>
-                <div class="row" id="copyright">
-                    <small class="col s12 l12 center" id="footer"></small>
-                </div>
+            <div class="col s12 l3">
+              <div class="card z-depth-2">
+                <a
+                  href="https://medium.com/@julius.karl.macrohon/journey-navigation-demo-f551b0b42829"
+                  class="black-text"
+                  target="_blank"
+                >
+                  <div class="card-img">
+                    <img
+                      src="./img/thumbs/journey.JPG"
+                      class="responsive-img"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title"
+                      >Journey<br /><small>User Flow</small></span
+                    >
+                    <p>
+                      Since this application requires signing up (with
+                      confidential details) I thought it would be wise to
+                      provide a…
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-        </footer>
+            <div class="col s12 l3">
+              <div class="card z-depth-2">
+                <a
+                  href="https://medium.com/@julius.karl.macrohon/hirahero-hiragana-flash-cards-ef340366ef0a"
+                  class="black-text"
+                  target="_blank"
+                >
+                  <div class="card-img">
+                    <img
+                      src="./img/thumbs/hira-hero.JPG"
+                      class="responsive-img"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title"
+                      >Hirahero<br /><small>Product Design</small></span
+                    >
+                    <p>
+                      During the 2nd year of my computer science degree and
+                      being new to web development I was disappointed by…
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="container section scrollspy" id="contact">
+        <h1 class="title white-text center">contact</h1>
+        <div class="row">
+          <div class="col s12 l5 white-text">
+            <h4>Have an enquiry?</h4>
+            <p>
+              Fill out the contact form or alternatively send an email directly
+              to
+              <a href="mailto:julius.karl.macrohon@gmail.com"
+                ><i>julius.karl.macrohon@gmail.com</i></a
+              >
+              and i'll get in touch.
+            </p>
+          </div>
+          <form
+            action="https://formspree.io/mrggwpbl"
+            method="POST"
+            class="white-text col s12 l5 offset-l2"
+          >
+            <div class="input-field">
+              <i class="material-icons prefix">perm_identity</i>
+              <input type="text" name="name" id="name" class="white-text" />
+              <label for="name">Name</label>
+            </div>
+
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" name="email" id="email" class="white-text" />
+              <label for="email">Email</label>
+            </div>
+
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea
+                id="message"
+                name="message"
+                class="white-text materialize-textarea"
+              ></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div class="input-field">
+              <button class="btn white black-text waves-effect waves-dark">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="page-footer grey darken-4">
+        <div class="container section">
+          <div class="row">
+            <div class="col s12 l4">
+              <h6>Explore</h6>
+              <ul>
+                <li>
+                  <a href="#about"><small>ABOUT</small></a>
+                </li>
+                <li>
+                  <a href="#development"><small>DEVELOPMENT</small></a>
+                </li>
+                <li>
+                  <a href="#design"><small>DESIGN</small></a>
+                </li>
+                <li>
+                  <a href="#contact"><small>CONTACT</small></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col s12 l4">
+              <h6>Social</h6>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/juliuskarl/"
+                    target="_blank"
+                    ><small>LINKEDIN</small></a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/JuliusKarl" target="_blank"
+                    ><small>GITHUB</small></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://medium.com/@julius.karl.macrohon"
+                    target="_blank"
+                    ><small>MEDIUM</small></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col s12 l4 center">
+              <img
+                src="./img/logo_nobackground.png"
+                alt=""
+                class="responsive-img"
+              />
+              <small class="white-text"
+                ><i
+                  >Software developer with a focus on website and mobile
+                  applications.</i
+                ></small
+              >
+            </div>
+          </div>
+          <div class="row" id="copyright">
+            <small class="col s12 l12 center" id="footer"></small>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
