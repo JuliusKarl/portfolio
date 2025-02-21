@@ -10,7 +10,7 @@ $(document).ready(function () {
     console.log(year);
     document.getElementById(
       "footer"
-    ).textContent = `© ${year} JKMACRO LIMITED ALL RIGHTS RESERVED`;
+    ).textContent = `© ${year} JULIUSKARL LIMITED ALL RIGHTS RESERVED`;
   }
   getDate();
 
